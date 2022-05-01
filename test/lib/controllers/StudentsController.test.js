@@ -5,4 +5,8 @@ describe("Tests in StudentsController", () => {
         const studentsJson = StudentsController.getStudents();
         expect(studentsJson).not.toBeUndefined();
     });
+    test("2. getStudentsEmails", () => {
+        const studentsEmailsJson = StudentsController.getStudentsEmails();
+        expect(studentsEmailsJson).not.toBeUndefined();
+    });
 });
