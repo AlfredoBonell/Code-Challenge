@@ -1,5 +1,5 @@
-# Dependencias
+#Dependencias - Pendientes
 
-#Componentes
+#Componentes - Pendientes
 
-#Api
+#Api - Pendientes
