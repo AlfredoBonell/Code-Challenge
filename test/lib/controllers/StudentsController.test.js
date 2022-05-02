@@ -9,4 +9,8 @@ describe("Tests in StudentsController", () => {
         const studentsEmailsJson = StudentsController.getStudentsEmails();
         expect(studentsEmailsJson).not.toBeUndefined();
     });
+    test("3. getStudentsCredits", () => {
+        const studentsCreditsJson = StudentsController.getStudentsCredits();
+        expect(studentsCreditsJson).toBeTruthy();
+    });
 });
